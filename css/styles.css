@@ -1,0 +1,21 @@
+.cblite-form fieldset{border-radius:10px;padding:20px;}
+.cblite-result-row{border-bottom:1px solid #eeeeee;}
+.cblite-result-row img{border:1px solid #eeeeee;float:right;margin:10px 0px 10px 10px;padding:10px;width:75px;}
+.cblite-date,
+.cblite-rightsholder{color:#777777;display:block;font-style:italic}
+.cblite-label{color:#777777;display:inline!important;}
+.cblite-value{font-weight:bold;display:inline!important;}
+.cblite-getrecord h3{clear:none!important;}
+.cblite-getrecord .cblite-slides{float:right;max-width:100%;}
+.cblite-getrecord .cblite-slides img{border-radius:5px;max-width:100%;}
+.cblite-getrecord .cblite-slides .cblite-main{border:1px solid #eeeeee;display:block;margin:5px;padding:10px;}
+.cblite-getrecord .cblite-slides .cblite-thumb{background:none;border:1px solid #eeeeee;cursor:pointer;display:block;float:left;margin:4.5px;opacity:0.5;padding:12px;width:75px}
+.cblite-getrecord .cblite-slides .cblite-thumb.cblite-selected{opacity:1;}
+.cblite-getrecord ul{line-height:1.25em;}
+
+@media all and (max-width:800px) 
+{
+	.cblite-getrecord .cblite-slides{float:none;margin:0px;padding:0px;}
+	.cblite-getrecord .cblite-slides .cblite-main{margin:2%;padding:2%;max-width:90%;}
+	.cblite-getrecord .cblite-slides .cblite-thumb{max-width:42%;margin:2%;padding:1%;}
+}
